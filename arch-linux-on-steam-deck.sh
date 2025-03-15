@@ -48,8 +48,9 @@ fwupdmgr refresh; fwupdmgr get-updates
 fwupdmgr update
 
 # audio
-sudo pacman -S pulseaudio pavucontrol
-sudo systemctl --user enable pulseaudio && sudo systemctl --user start pulseaudio
+sudo pacman -S pipewire wireplumber pipewire-audio pipewire-alsa pipewire-pulse pavucontrol
+# fix audio OLED audio crackling in wine 
+echo "default.clock.min-quantum = 256" >> ~/.config/pipewire
 
 # install yay
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si
