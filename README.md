@@ -3,8 +3,14 @@ A bash script for people who want to escape SteamOS on their Steam Deck **and** 
 
 I highly recommend to take a look at the [**Arch wiki: Steam Deck**](https://wiki.archlinux.org/title/Steam_Deck) yourself, as most of the commands here just automate that wiki.
 
-I'm not responsible for anything that happens, I am not a professional programmer, I just enjoy using Linux. I went through the trouble of installing Arch on my Steam Deck and I'm just trying to facilitate the process for people who'd like to do the same. So don't be mad at me if it creates more issues than it resolves, mkay?
-# What is it doing?
+# How do I run this?
+Run this in your terminal after reading what it does and if you want the programs included.
+```sh
+curl https://raw.githubusercontent.com/xeshda/arch-linux-on-steam-deck/refs/heads/main/arch-linux-on-steam-deck.sh | sh
+```
+
+_I'm not responsible for anything that happens, I am not a professional programmer, I just enjoy using Linux. I went through the trouble of installing Arch on my Steam Deck and I'm just trying to facilitate the process for people who'd like to do the same. So don't be mad at me if it creates more issues than it resolves, mkay?
+_# What is it doing?
 - installs and configures `xbindkeys` to get the volume keys on the Steam Deck to work
 - touchscreen support via `xinput`
 - install `xrandr` so that you can **fix the screen rotation.**
