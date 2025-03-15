@@ -3,7 +3,7 @@ A bash script for people who want to escape SteamOS on their Steam Deck **and** 
 
 I highly recommend to take a look at the [**Arch wiki: Steam Deck**](https://wiki.archlinux.org/title/Steam_Deck) yourself, as most of the commands here just automate that wiki.
 
-I want to make clear that this is **NOT MEANT TO BE RAN MORE THAN ONCE**, and I'm not responsible for your annoyance as I clearly warned you not to do, mkay?
+I'm not responsible for anything that happens, I am not a professional programmer, I just enjoy using Linux. I went through the trouble of installing Arch on my Steam Deck and I'm just trying to facilitate the process for people who'd like to do the same. So don't be mad at me if it creates more issues than it resolves, mkay?
 # What is it doing?
 - installs and configures `xbindkeys` to get the volume keys on the Steam Deck to work
 - touchscreen support via `xinput`
