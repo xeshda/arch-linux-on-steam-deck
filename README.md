@@ -17,7 +17,7 @@ _# What is it doing?
 - install **[firmware updates](https://wiki.archlinux.org/title/Steam_Deck#Firmware)**
 - installing en enabling **[pulseaudio](https://wiki.archlinux.org/title/PulseAudio)**
 - install **[yay](https://github.com/Jguer/yay)**
-- making the Steam Deck controls usable by installing [game-devices-udev **(AUR)**](https://aur.archlinux.org/packages/game-devices-udev) via `yay`
+- making the Steam Deck controls usable by installing [**game-devices-udev (AUR)**](https://aur.archlinux.org/packages/game-devices-udev) via **[yay](https://github.com/Jguer/yay)**
 - installing **Flatpak**
 - installing **[Steam (flatpak)](https://flathub.org/apps/com.valvesoftware.Steam)**
 
