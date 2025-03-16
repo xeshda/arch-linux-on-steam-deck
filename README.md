@@ -1,5 +1,5 @@
 # Arch Linux on Steam Deck
-A bash script for people who want to escape SteamOS on their Steam Deck **and** for people who choose **__not__** to use a **Desktop Environment** but want to reap the benefits of a portable Linux system.
+A bash script for people who want to escape SteamOS on their Steam Deck **and** for people who choose **__not__** to use a **Desktop Environment** but want to reap the benefits of a portable Linux system (as much as possible anyway.)
 
 I highly recommend to take a look at the [**Arch wiki: Steam Deck**](https://wiki.archlinux.org/title/Steam_Deck) yourself, as most of the commands here just automate that wiki.
 
